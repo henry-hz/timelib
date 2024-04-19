@@ -9,7 +9,7 @@ package Timelib where
 lean_lib Timelib
 
 require mathlib from git
-  "https://github.com/leanprover-community/mathlib4.git"@"stable"
+  "git@github.com:/henry-hz/mathlib4.git"@"stable"
 
 meta if get_config? env = some "dev" then -- dev is so not everyone has to build it
 require «doc-gen4» from git "https://github.com/leanprover/doc-gen4" @ "main"
